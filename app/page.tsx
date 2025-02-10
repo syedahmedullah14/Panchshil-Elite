@@ -35,7 +35,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-screen">
         <Image
-          src="/P6.png"
+          src="/hero.jpg"
           alt="Panchshil Elite Building"
           fill
           className="object-cover"
@@ -43,8 +43,13 @@ export default function Home() {
         />
         <div className="absolute inset-0 bg-black/40" />
         <div className="absolute inset-0 container mx-auto px-4 flex flex-col justify-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-white max-w-2xl">Welcome to Panchshil Elite</h1>
-          <p className="mt-4 text-lg text-white/90 max-w-xl">Premium 2 & 3 BHK Residences</p>
+          {/* <h1 className="text-4xl md:text-6xl font-bold text-white max-w-2xl">Welcome to Panchshil Elite <br /> */}
+          {/* </h1><br /> */}
+          <h2 className="text-xl md:text-6xl font-bold text-white/80 max-w-2xl">
+          The Building partner that delivers what we say we will, or better.   
+          </h2>
+          {/* <p className="mt-4 text-xl text-white/80 max-w-xl">Immerse yourself in a world of luxary and sophistication at Panchshil Elite.  Our 2 & 3 BHK Premium Homes offer an unparallel living experience, with impeccable design, top-of-the-line amenities, and a prestigious location. Step into a realm where elegance meets comfort, and make Panchshil Elite your perfect abode.</p> */}
+          {/* <p className="mt-4 text-lg text-white/90 max-w-xl">Premium 2 & 3 BHK Residences</p> */}
           <Button className="mt-8 w-fit" variant="secondary">
             Download Brochure
           </Button>
@@ -52,8 +57,14 @@ export default function Home() {
       </section>
 
       {/* Floor Plans Section */}
-      <section id="floor-plans" className="py-20">
-        <div className="container mx-auto px-4">
+      <section id="floor-plans" className="py-20 bg-gray-200">
+        <div className="container mx-auto">
+          <div className="grid grid-flow-col justify-between pl-10">
+            <p className="text-blue-950 font-bold text-xl">As problem solvers and 'people-people, we have been delivering a consistently high standard of work in Maharashtra region for more than 25 years.</p>
+            <p className="pl-5 pr-5 text-black/70">Whether it's effectively managing timelines, liaising with our building partners, or upholding our reputation for outstanding results - we pride ourselves on delivering an excellent and effortless experience on time and within budget for our residential and commercial clients.</p>
+            <p className="pl-5 text-black/70">We specialise in building eco-friendly passive homes, remedial work on leaky buildings, extensions, additions, renovations and project management. Our hand-picked team are highly experienced and passionate about quality results. Check out these residential and commercial projects and talk to us today about the project you are considering.</p>
+
+          </div>
           <h2 className="text-3xl font-bold text-center mb-12">Floor Plans</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="relative aspect-video rounded-lg overflow-hidden">
