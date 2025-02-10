@@ -18,11 +18,20 @@ export default function Home() {
             />
           </Link>
           <div className="hidden md:flex items-center gap-8">
-            <Link href="#features" className="text-sm font-medium hover:text-primary">
-              Features
+            <Link href="#home" className="text-sm font-medium hover:text-primary">
+              Home
+            </Link>
+            <Link href="#projects" className="text-sm font-medium hover:text-primary">
+              Projects
+            </Link>
+            <Link href="#services" className="text-sm font-medium hover:text-primary">
+              Services
             </Link>
             <Link href="#about-us" className="text-sm font-medium hover:text-primary">
-              About us
+              About Us
+            </Link>
+            <Link href="#our-team" className="text-sm font-medium hover:text-primary">
+              Our Team
             </Link>
             <Link href="#contact" className="text-sm font-medium hover:text-primary">
               Contact
@@ -61,7 +70,7 @@ export default function Home() {
         <div className="container mx-auto">
           <div className="grid grid-flow-col justify-between gap-5">
             {/* <p className="text-blue-950 font-bold text-xl">As problem solvers and 'people-people, we have been delivering a consistently high standard of work in Maharashtra region for more than 25 years.</p> */}
-            <p className="text-blue-950 font-bold text-xl">Welcome to Panchshil Elite! <br /><br />
+            <p className="text-blue-950 font-bold text-sm">Welcome to Panchshil Elite! <br /><br />
             Immerse yourself in a world of luxury and sophistication at Panchshil Elite.
             Our 2 & 3 BHK Premium Homes offer an unparalleled living experience, with impeccable design, top-of-the-line amenities, and a prestigious location. Step into a realm where elegance meets comfort, and make Panchshil Elite your perfect abodes
             </p>
@@ -243,10 +252,10 @@ export default function Home() {
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-primary text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-8">Contact Us</h2>
+          <h2 className="text-4xl font-bold mb-8">Contact Us</h2>
           <p className="text-xl mb-6">Ready to find your dream home?</p>
           <Button variant="secondary" size="lg">
-            Call: +91 1234567890
+            Call: +91 9403885726
           </Button>
         </div>
       </section>
