@@ -109,7 +109,73 @@ export default function Home() {
       </section>
       
       <section>
-         
+         <div className="container mx-auto m-20">
+         <div className="grid grid-cols-2 md:grid-flow-row justify-between gap-8">
+            <p className="text-blue-950 font-bold text-xl">Unmatched Desingn and Architecture <br /> <br />Experience architectural brilliance and exquisite design at Panchshil Elite. Every corner of our premium homes is meticulously crafted to elevate your living experience. From spacious interiors to stunning views, indulge in a space that effortlessly combines aesthetics with functionality, setting a new standard in modern living.</p>
+            
+            <div className="relative aspect-video  overflow-hidden">
+              <Image
+                src="/P3.PNG"
+                alt="3BHK Floor Plan"
+                fill
+                className="object-contain"
+              />
+            </div>
+          </div>
+         </div>
+      </section>
+
+      <section>
+         <div className="container mx-auto m-20">
+          <div className="grid grid-cols-1 md:grid-flow-row justify-between gap-8">
+           <div className="relative aspect-video  overflow-hidden">
+              <Image
+                src="/P13.PNG"
+                alt="3BHK Floor Plan"
+                fill
+                className="object-fill"
+              />
+            </div>
+          {/* <p className="text-blue-950 font-bold text-xl">Unmatched Desingn and Architecture <br /> <br />Experience architectural brilliance and exquisite design at Panchshil Elite. Every corner of our premium homes is meticulously crafted to elevate your living experience. From spacious interiors to stunning views, indulge in a space that effortlessly combines aesthetics with functionality, setting a new standard in modern living.</p> */}
+            
+            
+          </div>
+         </div>
+      </section>
+
+      <section>
+         <div className="container mx-auto m-20">
+         <div className="grid grid-cols-2 md:grid-flow-row justify-between gap-8">
+            <p className="text-blue-950 font-bold text-xl">Invest in Your Dream Home <br /> <br />Panchshil Elite offers an excellent investment opportunity. With its prime location, superior quality construction, & impeccable amenities, these 2 & 3 BHK Premium Homes are not just homes, but assets for a lifetime.</p>
+            
+            <div className="relative aspect-video  overflow-hidden">
+              <Image
+                src="/hero.jpg"
+                alt="3BHK Floor Plan"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
+         </div>
+      </section>
+
+      <section>
+         <div className="container mx-auto mt-20 bg-[#fecf4f]">
+         <div className="justify-between">
+         <p className="text-blue-950 font-bold text-xl text-center py-10">Prime Location, Unmatched Convenience <br /> <br />Panchshil Elite offers an excellent investment opportunity. With its prime location, superior quality construction, & impeccable amenities, these 2 & 3 BHK Premium Homes are not just homes, but assets for a lifetime.</p>
+
+            <div className="relative aspect-video overflow-hidden">
+              <Image
+                src="/P12.PNG"
+                alt="3BHK Floor Plan"
+                fill
+                className="object-contain"
+              />
+            </div>
+
+          </div>
+         </div>
       </section>
 
       {/* Contact Section */}
