@@ -75,15 +75,15 @@ export default function Home() {
           <div className="">
             <div className="relative aspect-video  overflow-hidden">
               <Image
-                src="/P1.png"
+                src="/about.png"
                 alt="3BHK Floor Plan"
                 fill
                 className="object-cover"
               />
             </div>
-            <div className="relative aspect-video overflow-hidden">
+            <div className="relative aspect-video  overflow-hidden">
               <Image
-                src="/P4.png"
+                src="/about2.png"
                 alt="3BHK Floor Plan"
                 fill
                 className="object-scale-down"
