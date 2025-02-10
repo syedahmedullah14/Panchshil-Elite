@@ -35,7 +35,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-screen">
         <Image
-          src="/hero.jpg"
+          src="/P1.png"
           alt="Panchshil Elite Building"
           fill
           className="object-cover"
@@ -60,8 +60,8 @@ export default function Home() {
       <section id="floor-plans" className="py-20 bg-gray-200 ">
         <div className="container mx-auto">
           <div className="grid grid-flow-col justify-between gap-5">
-            <p className="text-blue-950 font-bold text-xl">As problem solvers and 'people-people, we have been delivering a consistently high standard of work in Maharashtra region for more than 25 years.</p>
-            <p className="pl-5 text-black/70">Whether it's effectively managing timelines, liaising with our building partners, or upholding our reputation for outstanding results - we pride ourselves on delivering an excellent and effortless experience on time and within budget for our residential and commercial clients.</p>
+            {/* <p className="text-blue-950 font-bold text-xl">As problem solvers and 'people-people, we have been delivering a consistently high standard of work in Maharashtra region for more than 25 years.</p> */}
+            <p className="text-blue-950 font-bold text-xl"></p>
             <p className="pl-5 text-black/70">We specialise in building eco-friendly passive homes, remedial work on leaky buildings, extensions, additions, renovations and project management. Our hand-picked team are highly experienced and passionate about quality results. Check out these residential and commercial projects and talk to us today about the project you are considering.</p>
 
           </div>
@@ -75,20 +75,31 @@ export default function Home() {
           <div className="">
             <div className="relative aspect-video  overflow-hidden">
               <Image
-                src="/about.png"
+                src="/10.png"
                 alt="3BHK Floor Plan"
                 fill
                 className="object-cover"
               />
             </div>
+            <div className="grid grid-cols-2 md:grid-flow-row mt-10">
             <div className="relative aspect-video  overflow-hidden">
               <Image
-                src="/about2.png"
+                src="/P4.png"
                 alt="3BHK Floor Plan"
                 fill
-                className="object-scale-down"
+                className="object-fill"
               />
             </div>
+            <div className="relative aspect-video  overflow-hidden">
+              <Image
+                src="/P4.png"
+                alt="3BHK Floor Plan"
+                fill
+                className="object-fill"
+              />
+            </div>
+            </div>
+
           </div>
         </div>
       </section>
