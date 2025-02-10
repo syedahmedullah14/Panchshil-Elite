@@ -72,18 +72,37 @@ export default function Home() {
             The Panchshil Difference
           </Button>
           </div>
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="relative aspect-video rounded-lg overflow-hidden">
+          <div className="">
+            <div className="relative aspect-video  overflow-hidden">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/P4.PNG-rjRF4qMYgn28FZHqwlbWgwveeKSfeL.png"
+                src="P11.png"
                 alt="3BHK Floor Plan"
                 fill
-                className="object-contain"
+                className="object-cover"
+              />
+            </div>
+            <div className="relative aspect-video  overflow-hidden">
+              <Image
+                src="P12.png"
+                alt="3BHK Floor Plan"
+                fill
+                className="object-scale-down"
               />
             </div>
           </div>
         </div>
       </section>
+
+      {/* Contact Section */}
+      <section id="contact" className="py-20 bg-red-600 text-white">
+        <div className="container mx-auto  text-center">
+          <h2 className="text-3xl font-bold mb-8 text-justify px-60">"Your experience and advice was invaluable 
+            in progressing the work through to a successfull completion"
+          </h2>
+          <p className="text-lg mb-6 text-white/80">-Mike Morgan, Fletcher Construction</p>
+        </div>
+      </section>
+
 
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-primary text-white">
@@ -111,6 +130,7 @@ export default function Home() {
           </div>
         </div>
       </footer>
+      
     </main>
   )
 }
