@@ -1,6 +1,10 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import ImageSlider from "@/components/ImageSlider"
+
+
+
 
 export default function Home() {
   return (
@@ -41,8 +45,11 @@ export default function Home() {
         </div>
       </nav>
 
+      
       {/* Hero Section */}
       <section className="relative h-screen">
+
+      
         <Image
           src="/P1.PNG"
           alt="Panchshil Elite Building"

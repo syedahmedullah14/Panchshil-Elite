@@ -4,6 +4,17 @@
 
 @layer base {
   :root {
+
+    /* In your global CSS file (e.g., styles/globals.css) */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff; /* Customize arrow color */
+}
+
+.swiper-pagination-bullet {
+  background-color: #fecf4f; /* Customize pagination bullets */
+}
+
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
 
