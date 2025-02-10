@@ -75,7 +75,7 @@ export default function Home() {
           <div className="">
             <div className="relative aspect-video  overflow-hidden">
               <Image
-                src="P11.png"
+                src="/P11.png"
                 alt="3BHK Floor Plan"
                 fill
                 className="object-cover"
@@ -83,7 +83,7 @@ export default function Home() {
             </div>
             <div className="relative aspect-video  overflow-hidden">
               <Image
-                src="P12.png"
+                src="/P12.png"
                 alt="3BHK Floor Plan"
                 fill
                 className="object-scale-down"
