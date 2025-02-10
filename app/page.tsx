@@ -22,7 +22,7 @@ export default function Home() {
               Features
             </Link>
             <Link href="#floor-plans" className="text-sm font-medium hover:text-primary">
-              Floor Plans
+              About us
             </Link>
             <Link href="#contact" className="text-sm font-medium hover:text-primary">
               Contact
