@@ -21,7 +21,7 @@ export default function Home() {
             <Link href="#features" className="text-sm font-medium hover:text-primary">
               Features
             </Link>
-            <Link href="#floor-plans" className="text-sm font-medium hover:text-primary">
+            <Link href="#about-us" className="text-sm font-medium hover:text-primary">
               About us
             </Link>
             <Link href="#contact" className="text-sm font-medium hover:text-primary">
