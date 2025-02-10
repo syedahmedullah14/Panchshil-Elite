@@ -118,15 +118,19 @@ export default function Home() {
       {/* Footer */}
       <footer className="py-8 bg-gray-900 text-white">
         <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <Image
+          <h1 className="text-2xl mb-3">Panchshil Elite</h1>
+          <div className="grid grid-cols-4 md:grid-row gap-10">
+           
+            <p className="text-sm text-gray-400">0240-202000 <br /> 0240-202000 <br /> info@panchshil.com</p>
+            <p className="text-sm text-gray-400">Panchshil Limited <br />4th avenue, <br />Bandra, Mumbai</p>
+            <p className="text-sm text-gray-400">Panchshil is a construction company with a longstanding reputation of delivering consistently on time, within budget and with no compromise on quality.</p>
+             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo.PNG-n7eEnhleaPsnClRKXJ1JAYVl2ME1d7.png"
               alt="Panchshil Group Logo"
-              width={140}
-              height={45}
-              className="mb-4 md:mb-0 invert"
+              width={100}
+              height={35}
+              className="mb-4 md:mb-0 invert content-end"
             />
-            <p className="text-sm text-gray-400">© 2024 Panchshil Group. All rights reserved.</p>
           </div>
         </div>
       </footer>
