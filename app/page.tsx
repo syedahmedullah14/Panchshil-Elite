@@ -35,7 +35,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-screen">
         <Image
-          src="/P1.png"
+          src="/P1.PNG"
           alt="Panchshil Elite Building"
           fill
           className="object-cover"
@@ -61,7 +61,11 @@ export default function Home() {
         <div className="container mx-auto">
           <div className="grid grid-flow-col justify-between gap-5">
             {/* <p className="text-blue-950 font-bold text-xl">As problem solvers and 'people-people, we have been delivering a consistently high standard of work in Maharashtra region for more than 25 years.</p> */}
-            <p className="text-blue-950 font-bold text-xl"></p>
+            <p className="text-blue-950 font-bold text-xl">Welcome to Panchshil Elite! <br /><br />
+            Immerse yourself in a world of luxury and sophistication at Panchshil Elite.
+            Our 2 & 3 BHK Premium Homes offer an unparalleled living experience, with impeccable design, top-of-the-line amenities, and a prestigious location. Step into a realm where elegance meets comfort, and make Panchshil Elite your perfect abodes
+            </p>
+            <p className="pl-5 text-black/70">We specialise in building eco-friendly passive homes, remedial work on leaky buildings, extensions, additions, renovations and project management. Our hand-picked team are highly experienced and passionate about quality results. Check out these residential and commercial projects and talk to us today about the project you are considering.</p>
             <p className="pl-5 text-black/70">We specialise in building eco-friendly passive homes, remedial work on leaky buildings, extensions, additions, renovations and project management. Our hand-picked team are highly experienced and passionate about quality results. Check out these residential and commercial projects and talk to us today about the project you are considering.</p>
 
           </div>
@@ -75,7 +79,7 @@ export default function Home() {
           <div className="">
             <div className="relative aspect-video  overflow-hidden">
               <Image
-                src="/10.png"
+                src="/10.PNG"
                 alt="3BHK Floor Plan"
                 fill
                 className="object-cover"
@@ -84,7 +88,7 @@ export default function Home() {
             <div className="grid grid-cols-2 md:grid-flow-row mt-10">
             <div className="relative aspect-video  overflow-hidden">
               <Image
-                src="/P4.png"
+                src="/P4.PNG"
                 alt="3BHK Floor Plan"
                 fill
                 className="object-fill"
@@ -92,7 +96,7 @@ export default function Home() {
             </div>
             <div className="relative aspect-video  overflow-hidden">
               <Image
-                src="/P4.png"
+                src="/P3.PNG"
                 alt="3BHK Floor Plan"
                 fill
                 className="object-fill"
@@ -102,6 +106,10 @@ export default function Home() {
 
           </div>
         </div>
+      </section>
+      
+      <section>
+         
       </section>
 
       {/* Contact Section */}
