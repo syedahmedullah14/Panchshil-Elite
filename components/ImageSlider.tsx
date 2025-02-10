@@ -4,9 +4,10 @@ import Image from "next/image";
 import { StaticImageData } from "next/image";
 // import image1 from "@/public/10.PNG";
 // import image2 from "@/public/P12.PNG";
-import image1 from "@/public/hero.jpg";
+import image1 from "@/public/hero5.jpg";
 import image2 from "@/public/hero2.jpg";
-import image3 from "@/public/hero3.jpg";
+import image3 from "@/public/hero.jpg";
+// import image4 from "@/public/hero5.jpg";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 // Interface for image data
@@ -84,6 +85,7 @@ export default function ImageSlider(): JSX.Element {
           layout="fill"
           objectFit="cover"
           className="rounded-xl transition-all duration-500 ease-in-out cursor-pointer"
+          
         />
       </div>
       <button
@@ -110,6 +112,7 @@ export default function ImageSlider(): JSX.Element {
           ></div>
         ))}
       </div>
+      
     </div>
   );
 }

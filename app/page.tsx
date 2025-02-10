@@ -8,7 +8,7 @@ import ImageSlider from "@/components/ImageSlider"
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen mt-4">
       {/* Navbar */}
       <nav className="fixed top-0 w-full z-50 bg-white/95 backdrop-blur-sm border-b">
         <div className="container mx-auto px-4 h-20 flex items-center justify-between">
@@ -47,7 +47,7 @@ export default function Home() {
 
       
       {/* Hero Section */}
-      <section className="relative h-screen">
+      {/* <section className="relative h-screen">
 
       
         <Image
@@ -59,18 +59,16 @@ export default function Home() {
         />
         <div className="absolute inset-0 bg-black/40" />
         <div className="absolute inset-0 container mx-auto px-4 flex flex-col justify-center">
-          {/* <h1 className="text-4xl md:text-6xl font-bold text-white max-w-2xl">Welcome to Panchshil Elite <br /> */}
-          {/* </h1><br /> */}
+         
           <h2 className="text-xl md:text-6xl font-bold text-white/80 max-w-2xl">
           The Building partner that delivers what we say we will, or better.   
           </h2>
-          {/* <p className="mt-4 text-xl text-white/80 max-w-xl">Immerse yourself in a world of luxary and sophistication at Panchshil Elite.  Our 2 & 3 BHK Premium Homes offer an unparallel living experience, with impeccable design, top-of-the-line amenities, and a prestigious location. Step into a realm where elegance meets comfort, and make Panchshil Elite your perfect abode.</p> */}
-          {/* <p className="mt-4 text-lg text-white/90 max-w-xl">Premium 2 & 3 BHK Residences</p> */}
+          
           <Button className="mt-8 w-fit" variant="secondary" size="lg">
             Download Brochure
           </Button>
         </div>
-      </section>
+      </section> */}
 
       {/* Floor Plans Section */}
       <section id="floor-plans" className="py-20 bg-gray-200 ">
