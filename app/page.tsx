@@ -126,7 +126,7 @@ export default function Home() {
       </section>
 
       <section>
-         <div className="container mx-auto m-20">
+         <div className="container mx-auto m-20 bg-[#fecf4f]">
           <div className="grid grid-cols-1 md:grid-flow-row justify-between gap-8">
            <div className="relative aspect-video  overflow-hidden">
               <Image
@@ -142,6 +142,7 @@ export default function Home() {
           </div>
          </div>
       </section>
+      
 
       <section>
          <div className="container mx-auto m-20">
@@ -178,6 +179,56 @@ export default function Home() {
          </div>
       </section>
 
+      <section>
+        <div className="container mx-auto mt-10 mb-10">
+          <h1 className="text-4xl text-center font-bold m-10">Project Specification</h1>
+          <div className="grid grid-cols-2">
+            <div>
+              <h1 className="text-xl font-bold mb-2">COMMON FACILITIES</h1>
+              <p className="my-2">Seismic resistant RCC frame structure.</p>
+              <p className="my-2">External walls 6" in RED brick work with double coat sand faced with texture paint</p>
+              <p className="my-2">Internal walls 4" In RED brick work with Gypsum finish walls with OBD paint</p>
+              <p className="my-2">Internal walls 4" In RED brick work with Gypsum finish walls with OBD paint</p>
+              <p className="my-2">One lift/elevator and elevator equipments for apartment building (Kone/Schindler/OTIS or Equivalent make)</p>
+
+              <h1 className="text-xl font-bold my-2">TOILETS</h1>
+              <p className="my-2">Designer Gi tile dado upto lintel level for toilet (Kajaria/RAK/Varmora or equivalent)</p>
+              <p className="my-2">Granite door frame with laminated flush door</p>
+              <p className="my-2">Sanitary ware (Jaguar/American standard or equivalent)</p>
+              <p className="my-2">Standard quality C.P. fitting</p>
+              <h1 className="text-xl font-bold my-2">ELECTRICAL</h1>
+              <p className="my-2">Concealed high quality branded Copper wiring</p>
+              <p className="my-2">Ample light points with Legrand/Anchor make modular switches</p>
+              <p className="my-2">T.V. point in living & master bed</p>
+              <p className="my-2">Power point in kitchen and toilet</p>
+              <p className="my-2">Power point in kitchen and toilet</p>
+              <p className="my-2">A.C. point in living and all bedrooms</p>
+              <p className="my-2">Provision for battery backup</p>
+
+            </div>
+            <div>
+              <h1 className="text-xl font-bold mb-2">KITCHEN</h1>
+              <p className="my-2">Kitchen platform with Black granite</p>
+              <p className="my-2">Stainless steel kitchen sink (Nirali or equivalent)</p>
+              <p className="my-2">Designer glazed tile dado up to lintel level above kitchen platform (Kajaria/RAK/ Simpolo or equivalent)              </p>
+              <p className="my-2">Provision and electric point for R.C. water</p>
+
+              <h1 className="text-xl font-bold my-2">DOORS & WINDOWS</h1>
+              <p className="my-2">Main door laminated ply frame with decorative laminated flush door fitting with night match</p>
+              <p className="my-2">All other doors with laminated ply door frame and laminated flush door & S.S. fitting and fixture</p>
+              <p className="my-2">M.S. powder coated French doors with grill for balcony</p>
+              <p className="my-2">Three track coated Aluminium window with M.S. grill and granite cladding from all sides</p>
+              <p className="my-2">Glass railing for balconies</p>
+              <h1 className="text-xl font-bold my-2">FLOORING</h1>
+              <p className="my-2">GVT/Vitrified tiles flooring in all rooms (Kajaria/Varmora or equivalent)</p>
+              <p className="my-2">Antiskid tile flooring for balcony & terrace</p>
+              
+            </div>
+          
+          </div>
+          </div>
+      </section>
+
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-red-600 text-white">
         <div className="container mx-auto  text-center">
@@ -202,21 +253,24 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="py-8 bg-gray-900 text-white">
-        <div className="container mx-auto px-4">
-          <h1 className="text-2xl mb-3">Panchshil Elite</h1>
-          <div className="grid grid-cols-4 md:grid-row gap-10">
+        <div className="container mx-auto px-10">
+          <h1 className="text-center text-4xl font-bold mt-5">Associate Partner</h1>
+          <p className="text-center text-2xl mb-10">Satish Ostwal</p>
+          {/* <h1 className="text-2xl mb-3">Panchshil Elite</h1> */}
+          <div className="grid grid-cols-3 md:grid-row gap-10">
            
-            <p className="text-sm text-gray-400">0240-202000 <br /> 0240-202000 <br /> info@panchshil.com</p>
-            <p className="text-sm text-gray-400">Panchshil Limited <br />4th avenue, <br />Bandra, Mumbai</p>
-            <p className="text-sm text-gray-400">Panchshil is a construction company with a longstanding reputation of delivering consistently on time, within budget and with no compromise on quality.</p>
-             <Image
+            <p className="text-sm text-gray-400">+91 9403885726 <br /> +91 8484847374 <br /> info@panchshil.com</p>
+            <p className="text-sm text-gray-400">Office Address: Office No. 5, Malge Majestic, Near Vyankatesh Mangal Karyala, Sutgirni Chowk Road, Garkheda, Chh. Sambhajinagar - 431001</p>
+            <p className="text-sm text-gray-400">Site Address: "Panchshil Elite", Plot NO. 66 & 67, CTS NO. 12375 & 12376, Surana Nagar, Jalna Road, Chh Sambhajinagar - 431005</p>
+             {/* <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo.PNG-n7eEnhleaPsnClRKXJ1JAYVl2ME1d7.png"
               alt="Panchshil Group Logo"
               width={100}
               height={35}
               className="mb-4 md:mb-0 invert content-end"
-            />
+            /> */}
           </div>
+          <p className="text-sm text-gray-400 text-center mt-5"> © 2024 Panchshil Group. All rights reserved.</p>
         </div>
       </footer>
       
