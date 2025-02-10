@@ -35,7 +35,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-screen">
         <Image
-          src="/P10.png"
+          src="/P6.png"
           alt="Panchshil Elite Building"
           fill
           className="object-cover"
