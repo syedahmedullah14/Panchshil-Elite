@@ -57,24 +57,22 @@ export default function Home() {
       </section>
 
       {/* Floor Plans Section */}
-      <section id="floor-plans" className="py-20 bg-gray-200">
+      <section id="floor-plans" className="py-20 bg-gray-200 ">
         <div className="container mx-auto">
-          <div className="grid grid-flow-col justify-between pl-10">
+          <div className="grid grid-flow-col justify-between gap-5">
             <p className="text-blue-950 font-bold text-xl">As problem solvers and 'people-people, we have been delivering a consistently high standard of work in Maharashtra region for more than 25 years.</p>
-            <p className="pl-5 pr-5 text-black/70">Whether it's effectively managing timelines, liaising with our building partners, or upholding our reputation for outstanding results - we pride ourselves on delivering an excellent and effortless experience on time and within budget for our residential and commercial clients.</p>
+            <p className="pl-5 text-black/70">Whether it's effectively managing timelines, liaising with our building partners, or upholding our reputation for outstanding results - we pride ourselves on delivering an excellent and effortless experience on time and within budget for our residential and commercial clients.</p>
             <p className="pl-5 text-black/70">We specialise in building eco-friendly passive homes, remedial work on leaky buildings, extensions, additions, renovations and project management. Our hand-picked team are highly experienced and passionate about quality results. Check out these residential and commercial projects and talk to us today about the project you are considering.</p>
 
           </div>
-          <h2 className="text-3xl font-bold text-center mb-12">Floor Plans</h2>
+          {/* <h2 className="text-3xl font-bold text-center mb-12">Floor Plans</h2> */}
+          
+          <div className="w-fill mb-10">
+          <Button className="mt-8 w-fit content-centre" >
+            The Panchshil Difference
+          </Button>
+          </div>
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="relative aspect-video rounded-lg overflow-hidden">
-              <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/P3.PNG-MOZCnGgjb19OMVQkCG0kgtrLig0l7u.png"
-                alt="2BHK Floor Plan"
-                fill
-                className="object-contain"
-              />
-            </div>
             <div className="relative aspect-video rounded-lg overflow-hidden">
               <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/P4.PNG-rjRF4qMYgn28FZHqwlbWgwveeKSfeL.png"
