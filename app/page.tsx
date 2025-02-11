@@ -2,6 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import ImageSlider from "@/components/ImageSlider"
+import { HeroSlider } from "@/components/HeroSlider"
 
 
 
@@ -45,7 +46,8 @@ export default function Home() {
         </div>
       </nav>
 
-      
+      <HeroSlider />
+
       {/* Hero Section */}
       {/* <section className="relative h-screen">
 

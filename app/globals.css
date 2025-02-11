@@ -4,17 +4,6 @@
 
 @layer base {
   :root {
-
-    /* In your global CSS file (e.g., styles/globals.css) */
-.swiper-button-next,
-.swiper-button-prev {
-  color: #fff; /* Customize arrow color */
-}
-
-.swiper-pagination-bullet {
-  background-color: #fecf4f; /* Customize pagination bullets */
-}
-
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
 
@@ -54,5 +43,35 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Add these new animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+/* Add smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Improve button hover effects */
+.button-hover-effect {
+  transition: transform 0.2s ease-in-out;
+}
+
+.button-hover-effect:hover {
+  transform: translateY(-2px);
 }
 
