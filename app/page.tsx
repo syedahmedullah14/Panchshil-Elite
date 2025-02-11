@@ -1,10 +1,9 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import ImageSlider from "@/components/ImageSlider"
 import { HeroSlider } from "@/components/HeroSlider"
-
-
+import { Card, CardContent } from "@/components/ui/card"
+import { Building2, MapPin, Phone, Shield, TreePine } from "lucide-react"
 
 
 export default function Home() {
@@ -101,7 +100,76 @@ export default function Home() {
           </div>
         </div>
       </section>
-      
+      {/* Key Features Section */}
+      <section id="features" className="py-20">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Premium Features</h2>
+          <div className="grid md:grid-cols-4 gap-8">
+            {[
+              {
+                icon: Building2,
+                title: "Modern Architecture",
+                description: "Contemporary design with premium finishes",
+              },
+              {
+                icon: MapPin,
+                title: "Prime Location",
+                description: "Strategically located with excellent connectivity",
+              },
+              {
+                icon: Shield,
+                title: "High Security",
+                description: "24/7 security with modern surveillance",
+              },
+              {
+                icon: TreePine,
+                title: "Green Spaces",
+                description: "Landscaped gardens and open areas",
+              },
+            ].map((feature, index) => (
+              <Card key={index} className="border-none shadow-none bg-muted/50">
+                <CardContent className="pt-6">
+                  <feature.icon className="w-12 h-12 text-primary mb-4" />
+                  <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
+                  <p className="text-muted-foreground">{feature.description}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Amenities Section */}
+      <section id="amenities" className="py-20 bg-primary text-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-4">Amenities</h2>
+          <p className="text-xl text-center mb-12">for the Discerning Few</p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            {[
+              "Sit-Out Area on Terrace",
+              "Construction in Red Bricks",
+              "Power Backup",
+              "CCTV Surveillance",
+              "Automatic Lift",
+              "Allotted Car Parking",
+              "Stacked Parking",
+              "Ample Ventilation",
+              "Rainwater Harvesting",
+              "Eco-Friendly Materials",
+              "Solar Power",
+              "Yoga Space",
+            ].map((amenity, index) => (
+              <div key={index} className="text-center">
+                <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-white/10 flex items-center justify-center">
+                  {/* <Home className="w-8 h-8" /> */}
+                </div>
+                <p className="text-sm font-medium">{amenity}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section>
          <div className="container mx-auto m-20">
          <div className="grid grid-cols-2 md:grid-flow-row justify-between gap-8">
@@ -130,7 +198,6 @@ export default function Home() {
                 className="object-fill"
               />
             </div>
-          {/* <p className="text-blue-950 font-bold text-xl">Unmatched Desingn and Architecture <br /> <br />Experience architectural brilliance and exquisite design at Panchshil Elite. Every corner of our premium homes is meticulously crafted to elevate your living experience. From spacious interiors to stunning views, indulge in a space that effortlessly combines aesthetics with functionality, setting a new standard in modern living.</p> */}
             
             
           </div>
@@ -223,15 +290,6 @@ export default function Home() {
           </div>
       </section>
 
-      {/* <section id="contact" className="py-20 bg-red-600 text-white">
-        <div className="container mx-auto  text-center">
-          <h2 className="text-3xl font-bold mb-8 text-justify px-60">"Your experience and advice was invaluable 
-            in progressing the work through to a successfull completion"
-          </h2>
-          <p className="text-lg mb-6 text-white/80">-Mike Morgan, Fletcher Construction</p>
-        </div>
-      </section> */}
-
 
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-primary text-white">
@@ -255,13 +313,7 @@ export default function Home() {
             <p className="text-sm text-white">+91 9403885726 <br /> +91 8484847374 <br /> info@panchshil.com</p>
             <p className="text-sm text-white">Office Address: Office No. 5, Malge Majestic, Near Vyankatesh Mangal Karyala, Sutgirni Chowk Road, Garkheda, Chh. Sambhajinagar - 431001</p>
             <p className="text-sm text-white">Site Address: "Panchshil Elite", Plot NO. 66 & 67, CTS NO. 12375 & 12376, Surana Nagar, Jalna Road, Chh Sambhajinagar - 431005</p>
-             {/* <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo.PNG-n7eEnhleaPsnClRKXJ1JAYVl2ME1d7.png"
-              alt="Panchshil Group Logo"
-              width={100}
-              height={35}
-              className="mb-4 md:mb-0 invert content-end"
-            /> */}
+            
           </div>
           <p className="text-sm text-gray-200 text-center mt-5"> © 2024 Panchshil Group. All rights reserved.</p>
         </div>
