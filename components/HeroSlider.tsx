@@ -8,18 +8,18 @@ import { cn } from "@/lib/utils"
 
 const slides = [
   {
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/P6.PNG-FxQBjeYAWci5H366dlyBkjbPkA1S1M.png",
-    title: "Welcome to Panchshil Elite",
+    image: "hero.jpg",
+    title: "Welcome to Panchshil Elite.",
     subtitle:
       "Immerse yourself in a world of luxury and sophistication at Panchshil Elite. Our 2 & 3 BHK Premium Homes offer an unparalleled living experience, with impeccable design, top-of-the-line amenities, and a prestigious location.",
   },
   {
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/P1.PNG-dqEne0mEIvQgzrkjyqwBiNBJQWZlWP.png",
-    title: "Modern Living Redefined",
+    image: "P1.PNG",
+    title: "The Building partner that delivers what we say we will, or better",
     subtitle: "Step into a realm where elegance meets comfort, and make Panchshil Elite your perfect abode.",
   },
   {
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/P2.PNG-GvgUepaOwr01OGXpz0AdvLTIl3Vonb.png",
+    image: "P2.PNG",
     title: "Architectural Excellence",
     subtitle:
       "Experience architectural brilliance and exquisite design. Every corner is meticulously crafted to elevate your living experience.",
@@ -41,7 +41,7 @@ export function HeroSlider() {
   useEffect(() => {
     let interval: NodeJS.Timeout
     if (isAutoPlaying) {
-      interval = setInterval(nextSlide, 5000)
+      interval = setInterval(nextSlide, 3000)
     }
     return () => clearInterval(interval)
   }, [isAutoPlaying, nextSlide])
@@ -77,9 +77,9 @@ export function HeroSlider() {
                   <Button variant="secondary" size="lg">
                     Download Brochure
                   </Button>
-                  <Button variant="outline" size="lg" className="text-white border-white hover:text-white">
+                  {/* <Button variant="outline" size="lg" className="text-white border-white hover:text-white">
                     Learn More
-                  </Button>
+                  </Button> */}
                 </div>
               </div>
             </div>

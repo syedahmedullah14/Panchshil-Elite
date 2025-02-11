@@ -49,31 +49,9 @@ export default function Home() {
       <HeroSlider />
 
       {/* Hero Section */}
-      {/* <section className="relative h-screen">
-
       
-        <Image
-          src="/P1.PNG"
-          alt="Panchshil Elite Building"
-          fill
-          className="object-cover"
-          priority
-        />
-        <div className="absolute inset-0 bg-black/40" />
-        <div className="absolute inset-0 container mx-auto px-4 flex flex-col justify-center">
-         
-          <h2 className="text-xl md:text-6xl font-bold text-white/80 max-w-2xl">
-          The Building partner that delivers what we say we will, or better.   
-          </h2>
-          
-          <Button className="mt-8 w-fit" variant="secondary" size="lg">
-            Download Brochure
-          </Button>
-        </div>
-      </section> */}
-
       {/* Floor Plans Section */}
-      <section id="floor-plans" className="py-20 bg-gray-200 ">
+      <section id="about-us" className="py-20 bg-gray-200 ">
         <div className="container mx-auto">
           <div className="grid grid-flow-col justify-between gap-5">
             {/* <p className="text-blue-950 font-bold text-xl">As problem solvers and 'people-people, we have been delivering a consistently high standard of work in Maharashtra region for more than 25 years.</p> */}
